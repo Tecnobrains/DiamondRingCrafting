@@ -13,7 +13,7 @@ module DiamondRingCrafting
 
         inputs
         {
-            item 1 Base.Diamond mode:destroy,
+            item 1 item:Base.Diamond mode:destroy,
             item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mode:destroy mappers[RingMapper],
         }
 
