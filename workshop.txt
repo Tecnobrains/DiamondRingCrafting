@@ -1,0 +1,6 @@
+version=1
+id=3799843167
+title=[B42] Diamond Ring Crafting
+description=Adds recipes for setting diamonds into gold rings.
+tags=Build 42;Clothing/Armor;Items
+visibility=public
