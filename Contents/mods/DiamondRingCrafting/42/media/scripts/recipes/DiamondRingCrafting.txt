@@ -10,7 +10,6 @@ module DiamondRingCrafting
         time = 100,
         timedAction = Making,
         category = Jewelry,
-        Tags = InHandCraft;CanBeDoneInDark,
 
         inputs
         {
