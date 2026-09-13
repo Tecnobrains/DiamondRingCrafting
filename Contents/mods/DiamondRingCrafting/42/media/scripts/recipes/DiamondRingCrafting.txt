@@ -1,27 +1,35 @@
 module DiamondRingCrafting
 {
+    imports
+    {
+        Base
+    }
+
     craftRecipe AddDiamondToGoldRing
     {
         time = 100,
         timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
 
         inputs
         {
-            item 1 [Base.Diamond],
-            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mappers:RingMapper,
+            item 1 [Base.Diamond] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mode:destroy mappers[RingMapper],
         }
 
         outputs
         {
-            item 1 Base.Ring_Left_RingFinger_GoldDiamond,
+            item 1 mapper:RingMapper,
         }
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_Gold = Base.Ring_Left_MiddleFinger_GoldDiamond,
-            Base.Ring_Right_RingFinger_Gold = Base.Ring_Right_MiddleFinger_GoldDiamond,
-            Base.Ring_Left_MiddleFinger_Gold = Base.Ring_Left_MiddleFinger_GoldDiamond,
-            Base.Ring_Right_MiddleFinger_Gold = Base.Ring_Right_MiddleFinger_GoldDiamond,
+            Base.Ring_Left_RingFinger_GoldDiamond = Base.Ring_Left_RingFinger_Gold,
+            Base.Ring_Right_RingFinger_GoldDiamond = Base.Ring_Right_RingFinger_Gold,
+            Base.Ring_Left_MiddleFinger_GoldDiamond = Base.Ring_Left_MiddleFinger_Gold,
+            Base.Ring_Right_MiddleFinger_GoldDiamond = Base.Ring_Right_MiddleFinger_Gold,
+
             default = Base.Ring_Left_RingFinger_GoldDiamond,
         }
     }
