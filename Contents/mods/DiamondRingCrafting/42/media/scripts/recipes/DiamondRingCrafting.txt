@@ -1,6 +1,6 @@
 module DiamondRingCrafting
 {
-    craftRecipe AddDiamondToGoldRingLeftRingFinger
+    craftRecipe AddDiamondToGoldRing
     {
         time = 100,
         timedAction = Making,
@@ -8,63 +8,21 @@ module DiamondRingCrafting
         inputs
         {
             item 1 [Base.Diamond],
-            item 1 [Base.Ring_Left_RingFinger_Gold],
+            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mappers:RingMapper,
         }
 
         outputs
         {
             item 1 Base.Ring_Left_RingFinger_GoldDiamond,
         }
-    }
 
-    craftRecipe AddDiamondToGoldRingLeftMiddleFinger
-    {
-        time = 100,
-        timedAction = Making,
-
-        inputs
+        itemMapper RingMapper
         {
-            item 1 [Base.Diamond],
-            item 1 [Base.Ring_Left_MiddleFinger_Gold],
-        }
-
-        outputs
-        {
-            item 1 Base.Ring_Left_MiddleFinger_GoldDiamond,
-        }
-    }
-
-    craftRecipe AddDiamondToGoldRingRightRingFinger
-    {
-        time = 100,
-        timedAction = Making,
-
-        inputs
-        {
-            item 1 [Base.Diamond],
-            item 1 [Base.Ring_Right_RingFinger_Gold],
-        }
-
-        outputs
-        {
-            item 1 Base.Ring_Right_RingFinger_GoldDiamond,
-        }
-    }
-
-    craftRecipe AddDiamondToGoldRingRightMiddleFinger
-    {
-        time = 100,
-        timedAction = Making,
-
-        inputs
-        {
-            item 1 [Base.Diamond],
-            item 1 [Base.Ring_Right_MiddleFinger_Gold],
-        }
-
-        outputs
-        {
-            item 1 Base.Ring_Right_MiddleFinger_GoldDiamond,
+            Base.Ring_Left_RingFinger_Gold = Base.Ring_Left_MiddleFinger_GoldDiamond,
+            Base.Ring_Right_RingFinger_Gold = Base.Ring_Right_MiddleFinger_GoldDiamond,
+            Base.Ring_Left_MiddleFinger_Gold = Base.Ring_Left_MiddleFinger_GoldDiamond,
+            Base.Ring_Right_MiddleFinger_Gold = Base.Ring_Right_MiddleFinger_GoldDiamond,
+            default = Base.Ring_Left_RingFinger_GoldDiamond,
         }
     }
 }
