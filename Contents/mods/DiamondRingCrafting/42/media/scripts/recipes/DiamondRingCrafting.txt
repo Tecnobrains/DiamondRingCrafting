@@ -7,7 +7,7 @@ module DiamondRingCrafting
 
     craftRecipe AddDiamondToGoldRing
     {
-        Time = 100,
+        time = 100,
         timedAction = Making,
         category = Jewelry,
 
