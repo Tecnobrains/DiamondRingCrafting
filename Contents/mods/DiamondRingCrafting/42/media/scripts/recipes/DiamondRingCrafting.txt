@@ -9,7 +9,7 @@ module DiamondRingCrafting
         inputs
         {
             item 1 Base.Diamond,
-            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mappers:RingMapper,
+            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mappers[RingMapper],
         }
 
         outputs
