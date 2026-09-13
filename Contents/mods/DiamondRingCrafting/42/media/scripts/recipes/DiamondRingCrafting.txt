@@ -4,6 +4,7 @@ module DiamondRingCrafting
     {
         time = 100,
         timedAction = Making,
+        category = Jewelry,
 
         inputs
         {
@@ -20,7 +21,7 @@ module DiamondRingCrafting
         {
             Base.Ring_Left_RingFinger_Gold = Base.Ring_Left_MiddleFinger_GoldDiamond,
             Base.Ring_Right_RingFinger_Gold = Base.Ring_Right_MiddleFinger_GoldDiamond,
-            Base.Ring_Left_MiddleFinger_Gold = Base.Ring_Left_MiddleFinger_GoldDiamond,
+            Base.Ring_Left_MiddleFinger_Gold = Base.Ring_Left_RingFinger_GoldDiamond,
             Base.Ring_Right_MiddleFinger_Gold = Base.Ring_Right_MiddleFinger_GoldDiamond,
             default = Base.Ring_Left_RingFinger_GoldDiamond,
         }
