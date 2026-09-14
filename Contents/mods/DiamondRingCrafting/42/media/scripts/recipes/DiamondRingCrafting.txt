@@ -84,12 +84,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_GoldEmerald = Base.Ring_Left_RingFinger_Gold,
-            Base.Ring_Right_RingFinger_GoldEmerald = Base.Ring_Right_RingFinger_Gold,
-            Base.Ring_Left_MiddleFinger_GoldEmerald = Base.Ring_Left_MiddleFinger_Gold,
-            Base.Ring_Right_MiddleFinger_GoldEmerald = Base.Ring_Right_MiddleFinger_Gold,
+            DiamondRingCrafting.Ring_Left_RingFinger_GoldEmerald = Base.Ring_Left_RingFinger_Gold,
+            DiamondRingCrafting.Ring_Right_RingFinger_GoldEmerald = Base.Ring_Right_RingFinger_Gold,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_GoldEmerald = Base.Ring_Left_MiddleFinger_Gold,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_GoldEmerald = Base.Ring_Right_MiddleFinger_Gold,
 
-            default = Base.Ring_Left_RingFinger_GoldEmerald,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_GoldEmerald,
         }
     }
 
@@ -114,12 +114,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_GoldAmethyst = Base.Ring_Left_RingFinger_Gold,
-            Base.Ring_Right_RingFinger_GoldAmethyst = Base.Ring_Right_RingFinger_Gold,
-            Base.Ring_Left_MiddleFinger_GoldAmethyst = Base.Ring_Left_MiddleFinger_Gold,
-            Base.Ring_Right_MiddleFinger_GoldAmethyst = Base.Ring_Right_MiddleFinger_Gold,
+            DiamondRingCrafting.Ring_Left_RingFinger_GoldAmethyst = Base.Ring_Left_RingFinger_Gold,
+            DiamondRingCrafting.Ring_Right_RingFinger_GoldAmethyst = Base.Ring_Right_RingFinger_Gold,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_GoldAmethyst = Base.Ring_Left_MiddleFinger_Gold,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_GoldAmethyst = Base.Ring_Right_MiddleFinger_Gold,
 
-            default = Base.Ring_Left_RingFinger_GoldAmethyst,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_GoldAmethyst,
         }
     }
 
@@ -144,12 +144,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_GoldSapphire = Base.Ring_Left_RingFinger_Gold,
-            Base.Ring_Right_RingFinger_GoldSapphire = Base.Ring_Right_RingFinger_Gold,
-            Base.Ring_Left_MiddleFinger_GoldSapphire = Base.Ring_Left_MiddleFinger_Gold,
-            Base.Ring_Right_MiddleFinger_GoldSapphire = Base.Ring_Right_MiddleFinger_Gold,
+            DiamondRingCrafting.Ring_Left_RingFinger_GoldSapphire = Base.Ring_Left_RingFinger_Gold,
+            DiamondRingCrafting.Ring_Right_RingFinger_GoldSapphire = Base.Ring_Right_RingFinger_Gold,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_GoldSapphire = Base.Ring_Left_MiddleFinger_Gold,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_GoldSapphire = Base.Ring_Right_MiddleFinger_Gold,
 
-            default = Base.Ring_Left_RingFinger_GoldSapphire,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_GoldSapphire,
         }
     }
 
@@ -174,12 +174,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_SilverDiamond = Base.Ring_Left_RingFinger_Silver,
-            Base.Ring_Right_RingFinger_SilverDiamond = Base.Ring_Right_RingFinger_Silver,
-            Base.Ring_Left_MiddleFinger_SilverDiamond = Base.Ring_Left_MiddleFinger_Silver,
-            Base.Ring_Right_MiddleFinger_SilverDiamond = Base.Ring_Right_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Left_RingFinger_SilverDiamond = Base.Ring_Left_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Right_RingFinger_SilverDiamond = Base.Ring_Right_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_SilverDiamond = Base.Ring_Left_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_SilverDiamond = Base.Ring_Right_MiddleFinger_Silver,
 
-            default = Base.Ring_Left_RingFinger_SilverDiamond,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_SilverDiamond,
         }
     }
 
@@ -204,12 +204,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_SilverEmerald = Base.Ring_Left_RingFinger_Silver,
-            Base.Ring_Right_RingFinger_SilverEmerald = Base.Ring_Right_RingFinger_Silver,
-            Base.Ring_Left_MiddleFinger_SilverEmerald = Base.Ring_Left_MiddleFinger_Silver,
-            Base.Ring_Right_MiddleFinger_SilverEmerald = Base.Ring_Right_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Left_RingFinger_SilverEmerald = Base.Ring_Left_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Right_RingFinger_SilverEmerald = Base.Ring_Right_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_SilverEmerald = Base.Ring_Left_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_SilverEmerald = Base.Ring_Right_MiddleFinger_Silver,
 
-            default = Base.Ring_Left_RingFinger_SilverEmerald,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_SilverEmerald,
         }
     }
 
@@ -234,12 +234,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_SilverAmethyst = Base.Ring_Left_RingFinger_Silver,
-            Base.Ring_Right_RingFinger_SilverAmethyst = Base.Ring_Right_RingFinger_Silver,
-            Base.Ring_Left_MiddleFinger_SilverAmethyst = Base.Ring_Left_MiddleFinger_Silver,
-            Base.Ring_Right_MiddleFinger_SilverAmethyst = Base.Ring_Right_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Left_RingFinger_SilverAmethyst = Base.Ring_Left_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Right_RingFinger_SilverAmethyst = Base.Ring_Right_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_SilverAmethyst = Base.Ring_Left_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_SilverAmethyst = Base.Ring_Right_MiddleFinger_Silver,
 
-            default = Base.Ring_Left_RingFinger_SilverAmethyst,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_SilverAmethyst,
         }
     }
 
@@ -264,12 +264,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_SilverSapphire = Base.Ring_Left_RingFinger_Silver,
-            Base.Ring_Right_RingFinger_SilverSapphire = Base.Ring_Right_RingFinger_Silver,
-            Base.Ring_Left_MiddleFinger_SilverSapphire = Base.Ring_Left_MiddleFinger_Silver,
-            Base.Ring_Right_MiddleFinger_SilverSapphire = Base.Ring_Right_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Left_RingFinger_SilverSapphire = Base.Ring_Left_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Right_RingFinger_SilverSapphire = Base.Ring_Right_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_SilverSapphire = Base.Ring_Left_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_SilverSapphire = Base.Ring_Right_MiddleFinger_Silver,
 
-            default = Base.Ring_Left_RingFinger_SilverSapphire,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_SilverSapphire,
         }
     }
 
@@ -294,12 +294,12 @@ module DiamondRingCrafting
 
         itemMapper RingMapper
         {
-            Base.Ring_Left_RingFinger_SilverRuby = Base.Ring_Left_RingFinger_Silver,
-            Base.Ring_Right_RingFinger_SilverRuby = Base.Ring_Right_RingFinger_Silver,
-            Base.Ring_Left_MiddleFinger_SilverRuby = Base.Ring_Left_MiddleFinger_Silver,
-            Base.Ring_Right_MiddleFinger_SilverRuby = Base.Ring_Right_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Left_RingFinger_SilverRuby = Base.Ring_Left_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Right_RingFinger_SilverRuby = Base.Ring_Right_RingFinger_Silver,
+            DiamondRingCrafting.Ring_Left_MiddleFinger_SilverRuby = Base.Ring_Left_MiddleFinger_Silver,
+            DiamondRingCrafting.Ring_Right_MiddleFinger_SilverRuby = Base.Ring_Right_MiddleFinger_Silver,
 
-            default = Base.Ring_Left_RingFinger_SilverRuby,
+            default = DiamondRingCrafting.Ring_Left_RingFinger_SilverRuby,
         }
     }
 
