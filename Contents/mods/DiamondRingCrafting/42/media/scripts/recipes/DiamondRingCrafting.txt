@@ -62,4 +62,245 @@ module DiamondRingCrafting
             default = Base.Ring_Left_RingFinger_GoldRuby,
         }
     }
+
+
+    craftRecipe AddEmeraldToGoldRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Emerald] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_GoldEmerald = Base.Ring_Left_RingFinger_Gold,
+            Base.Ring_Right_RingFinger_GoldEmerald = Base.Ring_Right_RingFinger_Gold,
+            Base.Ring_Left_MiddleFinger_GoldEmerald = Base.Ring_Left_MiddleFinger_Gold,
+            Base.Ring_Right_MiddleFinger_GoldEmerald = Base.Ring_Right_MiddleFinger_Gold,
+
+            default = Base.Ring_Left_RingFinger_GoldEmerald,
+        }
+    }
+
+
+    craftRecipe AddAmethystToGoldRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Amethyst] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_GoldAmethyst = Base.Ring_Left_RingFinger_Gold,
+            Base.Ring_Right_RingFinger_GoldAmethyst = Base.Ring_Right_RingFinger_Gold,
+            Base.Ring_Left_MiddleFinger_GoldAmethyst = Base.Ring_Left_MiddleFinger_Gold,
+            Base.Ring_Right_MiddleFinger_GoldAmethyst = Base.Ring_Right_MiddleFinger_Gold,
+
+            default = Base.Ring_Left_RingFinger_GoldAmethyst,
+        }
+    }
+
+
+    craftRecipe AddSapphireToGoldRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Sapphire] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Gold;Base.Ring_Right_RingFinger_Gold;Base.Ring_Left_MiddleFinger_Gold;Base.Ring_Right_MiddleFinger_Gold] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_GoldSapphire = Base.Ring_Left_RingFinger_Gold,
+            Base.Ring_Right_RingFinger_GoldSapphire = Base.Ring_Right_RingFinger_Gold,
+            Base.Ring_Left_MiddleFinger_GoldSapphire = Base.Ring_Left_MiddleFinger_Gold,
+            Base.Ring_Right_MiddleFinger_GoldSapphire = Base.Ring_Right_MiddleFinger_Gold,
+
+            default = Base.Ring_Left_RingFinger_GoldSapphire,
+        }
+    }
+
+
+    craftRecipe AddDiamondToSilverRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Diamond] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Silver;Base.Ring_Right_RingFinger_Silver;Base.Ring_Left_MiddleFinger_Silver;Base.Ring_Right_MiddleFinger_Silver] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_SilverDiamond = Base.Ring_Left_RingFinger_Silver,
+            Base.Ring_Right_RingFinger_SilverDiamond = Base.Ring_Right_RingFinger_Silver,
+            Base.Ring_Left_MiddleFinger_SilverDiamond = Base.Ring_Left_MiddleFinger_Silver,
+            Base.Ring_Right_MiddleFinger_SilverDiamond = Base.Ring_Right_MiddleFinger_Silver,
+
+            default = Base.Ring_Left_RingFinger_SilverDiamond,
+        }
+    }
+
+
+    craftRecipe AddEmeraldToSilverRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Emerald] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Silver;Base.Ring_Right_RingFinger_Silver;Base.Ring_Left_MiddleFinger_Silver;Base.Ring_Right_MiddleFinger_Silver] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_SilverEmerald = Base.Ring_Left_RingFinger_Silver,
+            Base.Ring_Right_RingFinger_SilverEmerald = Base.Ring_Right_RingFinger_Silver,
+            Base.Ring_Left_MiddleFinger_SilverEmerald = Base.Ring_Left_MiddleFinger_Silver,
+            Base.Ring_Right_MiddleFinger_SilverEmerald = Base.Ring_Right_MiddleFinger_Silver,
+
+            default = Base.Ring_Left_RingFinger_SilverEmerald,
+        }
+    }
+
+
+    craftRecipe AddAmethystToSilverRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Amethyst] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Silver;Base.Ring_Right_RingFinger_Silver;Base.Ring_Left_MiddleFinger_Silver;Base.Ring_Right_MingFinger_Silver] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_SilverAmethyst = Base.Ring_Left_RingFinger_Silver,
+            Base.Ring_Right_RingFinger_SilverAmethyst = Base.Ring_Right_RingFinger_Silver,
+            Base.Ring_Left_MiddleFinger_SilverAmethyst = Base.Ring_Left_MiddleFinger_Silver,
+            Base.Ring_Right_MiddleFinger_SilverAmethyst = Base.Ring_Right_MiddleFinger_Silver,
+
+            default = Base.Ring_Left_RingFinger_SilverAmethyst,
+        }
+    }
+
+
+    craftRecipe AddSapphireToSilverRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Sapphire] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Silver;Base.Ring_Right_RingFinger_Silver;Base.Ring_Left_MiddleFinger_Silver;Base.Ring_Right_MiddleFinger_Silver] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_SilverSapphire = Base.Ring_Left_RingFinger_Silver,
+            Base.Ring_Right_RingFinger_SilverSapphire = Base.Ring_Right_RingFinger_Silver,
+            Base.Ring_Left_MiddleFinger_SilverSapphire = Base.Ring_Left_MiddleFinger_Silver,
+            Base.Ring_Right_MiddleFinger_SilverSapphire = Base.Ring_Right_MiddleFinger_Silver,
+
+            default = Base.Ring_Left_RingFinger_SilverSapphire,
+        }
+    }
+
+
+    craftRecipe AddRubyToSilverRing
+    {
+        time = 100,
+        timedAction = Making,
+        category = Jewelry,
+        Tags = InHandCraft;CanBeDoneInDark,
+
+        inputs
+        {
+            item 1 [Base.Ruby] mode:destroy,
+            item 1 [Base.Ring_Left_RingFinger_Silver;Base.Ring_Right_RingFinger_Silver;Base.Ring_Left_MiddleFinger_Silver;Base.Ring_Right_MiddleFinger_Silver] mode:destroy mappers[RingMapper],
+        }
+
+        outputs
+        {
+            item 1 mapper:RingMapper,
+        }
+
+        itemMapper RingMapper
+        {
+            Base.Ring_Left_RingFinger_SilverRuby = Base.Ring_Left_RingFinger_Silver,
+            Base.Ring_Right_RingFinger_SilverRuby = Base.Ring_Right_RingFinger_Silver,
+            Base.Ring_Left_MiddleFinger_SilverRuby = Base.Ring_Left_MiddleFinger_Silver,
+            Base.Ring_Right_MiddleFinger_SilverRuby = Base.Ring_Right_MiddleFinger_Silver,
+
+            default = Base.Ring_Left_RingFinger_SilverRuby,
+        }
+    }
+
 }
