@@ -18,7 +18,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;LeftRingFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:Diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Amethystjewellery,
     }
 
     item Ring_Left_MiddleFinger_GoldAmethyst
