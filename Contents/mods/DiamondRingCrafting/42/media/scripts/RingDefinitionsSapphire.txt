@@ -18,7 +18,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;LeftRingFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
     item Ring_Left_MiddleFinger_GoldSapphire
@@ -34,7 +34,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = RightMiddleFinger;LeftRingFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
     item Ring_Right_RingFinger_GoldSapphire
@@ -50,7 +50,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;LeftRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
     item Ring_Left_RingFinger_GoldSapphire
@@ -66,7 +66,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
 
@@ -85,7 +85,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;LeftRingFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
     item Ring_Left_MiddleFinger_SilverSapphire
@@ -101,7 +101,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = RightMiddleFinger;LeftRingFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
     item Ring_Right_RingFinger_SilverSapphire
@@ -117,7 +117,7 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;LeftRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 
     item Ring_Left_RingFinger_SilverSapphire
@@ -133,6 +133,6 @@ module DiamondRingCrafting
         ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;RightRingFinger,
         Cosmetic = true,
         WorldStaticModel = Ring_Gold_Ground,
-        Tags = base:hasmetal;base:tinygoldscrap;base:diamondjewellery,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Sapphirejewellery,
     }
 }
