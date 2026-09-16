@@ -1,0 +1,138 @@
+module DiamondRingCrafting
+{
+    imports
+    {
+        Base
+    }
+
+    item Ring_Right_MiddleFinger_GoldEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_GoldEmerald,
+        BodyLocation = base:right_middlefinger,
+        ClothingExtraSubmenu = RightMiddleFinger,
+        ClothingItem = Ring_Right_MiddleFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Left_RingFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = LeftMiddleFinger;LeftRingFinger;RightRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+    item Ring_Left_MiddleFinger_GoldEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_GoldEmerald,
+        BodyLocation = base:left_middlefinger,
+        ClothingExtraSubmenu = LeftMiddleFinger,
+        ClothingItem = Ring_Left_MiddleFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Left_RingFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = RightMiddleFinger;LeftRingFinger;RightRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+    item Ring_Right_RingFinger_GoldEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_GoldEmerald,
+        BodyLocation = base:right_ringfinger,
+        ClothingExtraSubmenu = RightRingFinger,
+        ClothingItem = Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Left_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;LeftRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+    item Ring_Left_RingFinger_GoldEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_GoldEmerald,
+        BodyLocation = base:left_ringfinger,
+        ClothingExtraSubmenu = LeftRingFinger,
+        ClothingItem = Ring_Left_RingFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;RightRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+
+
+
+    item Ring_Right_MiddleFinger_SilverEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_SilverEmerald,
+        BodyLocation = base:right_middlefinger,
+        ClothingExtraSubmenu = RightMiddleFinger,
+        ClothingItem = Ring_Right_MiddleFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Left_RingFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = LeftMiddleFinger;LeftRingFinger;RightRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+    item Ring_Left_MiddleFinger_SilverEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_SilverEmerald,
+        BodyLocation = base:left_middlefinger,
+        ClothingExtraSubmenu = LeftMiddleFinger,
+        ClothingItem = Ring_Left_MiddleFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Left_RingFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = RightMiddleFinger;LeftRingFinger;RightRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+    item Ring_Right_RingFinger_SilverEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_SilverEmerald,
+        BodyLocation = base:right_ringfinger,
+        ClothingExtraSubmenu = RightRingFinger,
+        ClothingItem = Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Left_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;LeftRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+
+    item Ring_Left_RingFinger_SilverEmerald
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 0.1,
+        Icon = Ring_SilverEmerald,
+        BodyLocation = base:left_ringfinger,
+        ClothingExtraSubmenu = LeftRingFinger,
+        ClothingItem = Ring_Left_RingFinger_GoldDiamond,
+        ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
+        ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;RightRingFinger,
+        Cosmetic = true,
+        WorldStaticModel = Ring_Gold_Ground,
+        Tags = base:hasmetal;base:tinygoldscrap;base:Emeraldjewellery,
+    }
+}

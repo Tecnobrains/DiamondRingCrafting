@@ -1,4 +1,13 @@
 {
-    "AddDiamondToGoldRing": "Add Diamond To Gold Ring",
-    "AddRubyToGoldRing": "Add Ruby To Gold Ring"
+    "AddDiamondToGoldRing": "Add Diamond to Gold Ring",
+    "AddEmeraldToGoldRing": "Add Emerald to Gold Ring",
+    "AddAmethystToGoldRing": "Add Amethyst to Gold Ring",
+    "AddSapphireToGoldRing": "Add Sapphire to Gold Ring",
+    "AddRubyToGoldRing": "Add Ruby to Gold Ring",
+
+    "AddDiamondToSilverRing": "Add Diamond to Silver Ring",
+    "AddEmeraldToSilverRing": "Add Emerald to Silver Ring",
+    "AddAmethystToSilverRing": "Add Amethyst to Silver Ring",
+    "AddSapphireToSilverRing": "Add Sapphire to Silver Ring",
+    "AddRubyToSilverRing": "Add Ruby to Silver Ring"
 }
