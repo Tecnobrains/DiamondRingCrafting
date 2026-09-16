@@ -127,7 +127,6 @@ module DiamondRingCrafting
         Weight = 0.1,
         Icon = Ring_SilverAmethyst,
         BodyLocation = base:left_ringfinger,
-        ClothingExtraSubmenu = LeftRingFinger,
         ClothingItem = Ring_Left_RingFinger_GoldDiamond,
         ClothingItemExtra = Base.Ring_Left_MiddleFinger_GoldDiamond;Base.Ring_Right_MiddleFinger_GoldDiamond;Base.Ring_Right_RingFinger_GoldDiamond,
         ClothingExtraSubmenu = LeftRingFinger,
