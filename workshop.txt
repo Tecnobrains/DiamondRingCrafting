@@ -1,6 +1,6 @@
 version=1
-id=3801455946
-title=[B42] [TESTING BRANCH] Rings and Things Jewlry Crafting
+id=3801175011
+title=[B42] Rings and Things Jewlry Crafting
 description=Adds several recipes to create jewelry from base items and gemstones.
 tags=Build 42;Clothing/Armor;Items
 visibility=unlisted
